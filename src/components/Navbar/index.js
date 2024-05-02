@@ -8,6 +8,9 @@ function Navbar() {
           <img src="logo.png" />
         </a>
       </div>
+      <a href="https://tiffanylee.me/playground">Playground</a>
+      <a href="https://tiffanylee.me/">Work</a>
+      <a href="https://tiffanylee.me/about">About</a>
       {/* <div className="dropdownBtn">
         <Button type="outlined" href="/" className={style.navLink}>
           Work
