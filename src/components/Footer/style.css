@@ -2,9 +2,44 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0px 72px 72px 72px;
+  padding: 72px;
+  background-color: hsl(0, 0%, 0%);
+  color: #ffffff;
 }
+
 .footerLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  align-self: stretch;
 }
+
 .footerRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contact {
+  margin: 0;
+}
+
+.text {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }

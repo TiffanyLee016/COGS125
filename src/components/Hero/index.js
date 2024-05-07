@@ -1,4 +1,5 @@
 import "./style.css";
+import { ReactTyped } from "react-typed";
 
 function Hero() {
   return (
@@ -6,7 +7,7 @@ function Hero() {
       <div className="heroLeft">
         <div className="cover">
           <img
-            src={"albumcover.png"}
+            src="/photos/albumcover.png"
             className="heroPic"
             fill
             priority
@@ -35,6 +36,17 @@ function Hero() {
             }}
           >
             Tiffany Lee
+          </h1>
+          <h1>
+            I am a{" "}
+            <ReactTyped
+              strings={[" Designer", "Developer", "Student"]}
+              typeSpeed={100}
+              loop
+              backSpeed={20}
+              cursorChar=">"
+              showCursor={true}
+            />
           </h1>
           <h3 className="subtitle">
             A product designer transforming data and creativity into delightful
